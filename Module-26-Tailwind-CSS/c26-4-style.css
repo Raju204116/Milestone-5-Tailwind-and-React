@@ -1,0 +1,30 @@
+.testMedia {
+    font-size: 120px;
+    font-weight: bold;
+    background-color: greenyellow;
+    color: blueviolet;
+}
+
+@media (max-width:800px) {
+    .testMedia {
+        font-size: 120px;
+        font-weight: bold;
+        background-color: yellow;
+        color: black;
+    }
+}
+@media (max-width:800px) {
+    .testMedia {
+        border: 4px solid green;
+        border-radius: 15px;
+    }
+}
+
+@media (min-width:300px) and (max-width:600px){
+     .testMedia {
+        font-size: 120px;
+        font-weight: bold;
+        background-color: rgb(231, 103, 103);
+        color: rgb(130, 130, 226);
+    }
+}

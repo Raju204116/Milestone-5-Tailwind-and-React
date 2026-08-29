@@ -1,0 +1,27 @@
+
+<!-- use inspect: [Toggle device toolbar] to increase or decrease the screen resolution (at top left -has only icon) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./c26-4-style.css">
+
+</head>
+<body>
+    
+
+    <!-- traditional mediaQuery- using custom class and style.css -->
+    <h2 class="testMedia">Our first responsive element</h2>
+
+
+    <!-- tailwind way- using only breakpoint prefix- sm,md,xl   -->
+    <h3 class="text-blue-400 bg-green-300 sm:text-[20px] md:text-[40px] xl:text-[80px]">Using tailwind media query</h3>
+    <!-- sm = 640px , that means upto 640px the text size will be 20px, 
+     after 640 to md=768px the text size will be 40px-->
+
+</body>
+</html>
