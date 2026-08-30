@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Platter</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <header class="bg-[#f1eee7]">
+        <nav class="flex justify-around p-5 items-center container">
+            <img src="./assets/nav-logo.png" alt="">
+
+            <ul class="flex gap-8">
+                <li>Product</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+
+            <div class="flex gap-8 justify-center items-center">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- <i class="fa-light fa-cart-shopping"></i> -->
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button class=" border rounded border-green-500 px-5 py-0.5 font-semibold">Login</button>
+                <button class=" rounded bg-green-500 px-5 py-1 font-semibold text-white ">Register</button>
+
+            </div>
+        </nav>
+
+        <section class="text-center py-[40px]">
+
+            <div class="text-center max-w-[48%] mx-auto">
+                <h2 class="font-bold text-5xl"> Freshness <span class="text-green-500">You Can <br> Count</span> On,
+                    Prices You’ll Love!</h2>
+                <p class="py-8 text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+                    staples, we’ve got you covered every day!</p>
+            </div>
+
+            <img src="./assets/Hero Section 1.png" alt="" class="max-w-[820px] mx-auto">
+        </section>
+
+    </header>
+
+    <!-- services -->
+    <section class="container mx-auto  my-30">
+        <h2 class="text-green-500 font-bold text-4xl mb-3 pl-35 ">Services </h2>
+
+        <div class="flex flex-col md:flex-row gap-5 mt-10 justify-center">
+            <!-- card-1 -->
+            <div class="text-center bg-[#f1eee7] rounded-2xl p-5 space-y-4  max-w-80">
+                <div class="bg-white rounded-full w-30 h-30  mx-auto    flex justify-center items-center p-5">
+                    <img src="./assets/service.png" alt="" class="mx-auto">
+                </div>
+                <h2 class="font-bold text-xl">24/7 Services</h2>
+                <p class="font-light text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+
+            <!-- card-2 -->
+            <div class="text-center bg-[#f1eee7] rounded-2xl p-5 space-y-4  max-w-80">
+                <div class="bg-white rounded-full w-30 h-30  mx-auto    flex justify-center items-center p-5">
+                    <img src="./assets/delivery.png" alt="" class="mx-auto">
+                </div>
+                <h2 class="font-bold text-xl">Fast Delivery</h2>
+                <p class="font-light text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+
+            <!-- card-3 -->
+              <div class="text-center bg-[#f1eee7] rounded-2xl p-5 space-y-4  max-w-80">
+                <div class="bg-white rounded-full w-30 h-30  mx-auto    flex justify-center items-center p-5">
+                    <img src="./assets/products.png" alt="" class="mx-auto">
+                </div>
+                <h2 class="font-bold text-xl">Healthy Products </h2>
+                <p class="font-light text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
