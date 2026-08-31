@@ -1,10 +1,11 @@
 
-/* ✅ ➡️ ❌ ⚠️ 📌 ⭐ 💡 👍
+/* 
 
-=>We can use CSS in 2 simple way:
-    -1.Writing css in App.css , then import it to App.tsx => (import './App.css')
+=>✅✅ We can use CSS in 2 simple way:  
 
-    -2.Directly by creating a Component in the App.tsx  =>
+    ➡️1.Writing css in App.css , then import it to App.tsx => (import './App.css')
+
+    ➡️2.Directly by creating a Component in the App.tsx  =>  (see App.tsx of my-first-app)
 
         function Student(){
             const studentStyle ={

@@ -1,19 +1,25 @@
 
 import './App.css'
 
-function App() {
+function App() {    //This App() component will go to main.tsx
 
   return (
     <>
         <div>
           <h1>Get started</h1>
           <p>Hello </p>
-          <Test></Test>  {/* just calling the component Test() like a tag */}
+          <Test></Test>     {/* just calling the component Test() like a tag */}
+
           <Student></Student>
+
+          <Student2 name="Raju" age = "25"> </Student2>   {/*calling and passing data to child Student2() */}
+          <Student2 name="Sakib" age = ""> </Student2>   {/*calling and  passing data to child Student2() */}
+     
+
         </div>
     </>
   )
-}//App()
+}//App() end
 
 
 //Test() : c27-3
@@ -39,10 +45,33 @@ function Student(){
   return (
     <div style={studentStyle}>
         <h2>Name:</h2>
-        <p>Age:</p>
+        <p>Gpa:</p>
     </div>
   )
 }
+
+
+
+// Student2() : c27-5
+function Student2(props){  //receiving data from the parent component App() 
+  // console.log("See this inside the inspect-console",props);   //{name: 'Raju', age: '25', children: ' '}
+  
+  const st2Style= {
+    border:'2px solid red'
+  }
+  return (
+    <div style={st2Style}>
+        <h1>Name: {props.name} </h1>
+        <h2>Age: {props.age}</h2>
+    </div>
+  )
+}
+
+
+
+
+
+
 
 
 

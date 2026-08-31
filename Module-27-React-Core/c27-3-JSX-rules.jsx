@@ -39,7 +39,7 @@
     ➡️1.Return a Single Root Element. If you need to return multiple items, then wrap them into one parent element -using parenthesis().
         -After parenthesis, you can use <div> </div> or fragment i.e empty tag <> </>
         
-        //using fragment to return multiple items
+        //using fragment to return multiple items : (see App.tsx of my-first-app)
         function Test(){  
             return (
                 <>
@@ -63,8 +63,8 @@
         -inside JSX Content : <h1> {name} is good student. </h1>
         -inside attribute :  <img src={avatar} alt={name} />
 
-
-    ➡️6.Double Curly braces {{}}
+ 
+    ➡️6.Double Curly braces {{}}   : (see App.tsx of my-first-app)
         -Js objects need an extra pair of braces when passed directly into JSX.
         -  <div
                 style={{
