@@ -57,7 +57,6 @@ Conditional rendering is how a component decides what to display based on data, 
 
 
 ✅✅Task.tsx✅✅
-
 interface propsType{
     name:string,
     isDone:boolean
