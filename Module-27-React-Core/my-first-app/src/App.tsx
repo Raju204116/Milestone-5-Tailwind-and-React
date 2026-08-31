@@ -1,44 +1,50 @@
 
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-
         <div>
           <h1>Get started</h1>
           <p>Hello </p>
-          <Test></Test>  {/* just calling the Test() like a tag */}
-
-
+          <Test></Test>  {/* just calling the component Test() like a tag */}
+          <Student></Student>
         </div>
-        
-      </section>
-
     </>
   )
 }//App()
 
-//Test()
+
+//Test() : c27-3
 function Test(){  
   return (
     <>
     <h2>This is my first react tag</h2>
     <h3>This is Second tag</h3>
 
-  
     </>
   )
 }
 
+
+//Student() : c27-4
+function Student(){
+
+    const studentStyle ={
+      border: '2px solid green',
+      borderRadious:'10px',
+      margin:'10px'
+    }
+  return (
+    <div style={studentStyle}>
+        <h2>Name:</h2>
+        <p>Age:</p>
+    </div>
+  )
+}
+
+
+
+//exporting to main.tsx
 export default App

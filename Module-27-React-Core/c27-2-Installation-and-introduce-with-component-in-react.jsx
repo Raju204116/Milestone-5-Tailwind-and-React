@@ -1,7 +1,7 @@
 /* 
+
 =>Why reactjs is called React ?
 =>Why one should use React ?
-
 
 
 =>✅✅Install and Create First Project
@@ -17,7 +17,15 @@
     -open vscode and open the my-first-app
     -here the app.tsx inside the src is the main part
     
+  ➡️Run using VsCode Terminal:
+    -go to project name folder: cd my-react-app
+    -npm install
+    -npm run dev
 
+    -then ctrl+click to the link Local:   http://localhost:5173/
+    -or copy and paste to browser.
+
+  =>📌Running flow: The link calls the index.html => main.tsx => App.tsx
 
 =>✅✅Component in React
 -A component is basically a TypeScript function that returns JSX,

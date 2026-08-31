@@ -36,8 +36,9 @@
 
 
 ✅✅✅JSX Rules:
-    ➡️1.Return a Single Root Element. If you need to return multiple items, then wrap them into one parent element.
-        -you can use <div> </div> or fragment i.e empty tag <> </>
+    ➡️1.Return a Single Root Element. If you need to return multiple items, then wrap them into one parent element -using parenthesis().
+        -After parenthesis, you can use <div> </div> or fragment i.e empty tag <> </>
+        
         //using fragment to return multiple items
         function Test(){  
             return (
@@ -62,7 +63,7 @@
         -inside JSX Content : <h1> {name} is good student. </h1>
         -inside attribute :  <img src={avatar} alt={name} />
 
-        
+
     ➡️6.Double Curly braces {{}}
         -Js objects need an extra pair of braces when passed directly into JSX.
         -  <div
