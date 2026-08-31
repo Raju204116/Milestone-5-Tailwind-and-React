@@ -1,6 +1,8 @@
 
 import './App.css'
 
+import Todo from './Todo'
+
 function App() {    //This App() component will go to main.tsx
 
   return (
@@ -15,6 +17,9 @@ function App() {    //This App() component will go to main.tsx
           <Student2 name="Raju" age = "25"> </Student2>   {/*calling and passing data to child Student2() */}
           <Student2 name="Sakib" age = ""> </Student2>   {/*calling and  passing data to child Student2() */}
      
+          <Todo task="finish module" time="8:00 PM"> </Todo>    {/* c27-6 */}
+          <Todo task="practice tailwind" time="10:00 PM"> </Todo>    {/* c27-6 */}
+         
 
         </div>
     </>
