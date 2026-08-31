@@ -1,0 +1,68 @@
+/* 
+=>Why reactjs is called React ?
+=>Why one should use React ?
+
+
+
+=>✅✅Install and Create First Project
+    -Go to vite.dev  =>getting started =>Scaffolding Your First Vite Project => using create vite with command line options
+    -copy: npm create vite@latest my-vue-app -- --template vue
+    -paste to local project directory (address bar) =>cmd  
+    -rename as : npm create vite@latest my-first-app -- --template react-ts   (enter)
+    =>Ok to proceed? (y) : y 
+    =>Which linter to use? oxlint  :    (enter)
+    =>Install with npm and start now? : (enter)
+    -copy the local path and past to browser : http://localhost:5173/
+
+    -open vscode and open the my-first-app
+    -here the app.tsx inside the src is the main part
+    
+
+
+=>✅✅Component in React
+-A component is basically a TypeScript function that returns JSX,
+-⚠️remember that the function name must be start with Capital letter.
+
+A component is a reusable, independent piece of UI in a React application.
+Think of a component like a building block of a React website.
+
+➡️Simple example
+function Welcome() {
+  return <h1>Welcome to React</h1>;
+}
+Here, Welcome is a React component.
+
+
+➡️You can use it inside another component:
+function App() {
+  return (
+    <div>
+      <Welcome />
+      <Welcome />
+    </div>
+  );
+}
+
+The result will display:
+Welcome to React
+Welcome to React
+
+
+✅✅Why use components?
+
+| Benefit                | Explanation                                   |
+| ---------------------- | --------------------------------------------- |
+| **Reusable**           | Create once and use many times                |
+| **Organized**          | Break a large UI into smaller parts           |
+| **Maintainable**       | Easier to modify and debug                    |
+| **Independent**        | Each component can manage its own UI logic    |
+| **Reusable with data** | Components can receive data through **props** |
+
+
+➡️Three steps to a Component
+    -Define the Function
+    -Export the Component
+    -Return JSX markup
+
+
+*/
