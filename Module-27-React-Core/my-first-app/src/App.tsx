@@ -2,6 +2,7 @@
 import './App.css'
 
 import Todo from './Todo'
+import Task from './Task'
 
 function App() {    //This App() component will go to main.tsx
 
@@ -18,7 +19,11 @@ function App() {    //This App() component will go to main.tsx
           <Student2 name="Sakib" age = ""> </Student2>   {/*calling and  passing data to child Student2() */}
      
           <Todo task="finish module" time="8:00 PM"> </Todo>    {/* c27-6 */}
-          <Todo task="practice tailwind" time="10:00 PM"> </Todo>    {/* c27-6 */}
+          <Todo task="practice tailwind" time="10:00 PM"> </Todo>    
+
+
+          <Task name="facebooking is waste of time" isDone={true}> </Task> {/* c27-7 */}
+          <Task name="Coding is good for learnig" isDone={false}> </Task> 
          
 
         </div>
