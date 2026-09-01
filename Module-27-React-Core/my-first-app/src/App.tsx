@@ -5,6 +5,7 @@ import Todo from './Todo'
 import Task from './Task'
 import Book from './Book'
 import Users from './User'
+import Sports from './Sports'
 
 function App() {    //This App() component will go to main.tsx
 
@@ -40,6 +41,9 @@ const books=['Physics','Chemistry', 'Biology', 'Math', 'English']  //c27-8
 
           <h2>C27-8-User array</h2>
           <Users/>   {/* c27-8 */}
+
+          <h2>C27-9-SportCard</h2>
+          <Sports/> {/* c27-9 */}
 
         </div>
     </>

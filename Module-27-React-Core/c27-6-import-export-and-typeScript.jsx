@@ -1,8 +1,19 @@
 
 /* 
-=>see Todo.tsx
+
+
+➡️see Todo.tsx
 -We must export any file to the App.tsx         =>export default Todo;
 -And must import that file inside the App.tsx   => import Todo from './Todo'
+
+NB:Import er khetre,
+tag shuru  kore Component er first letter likhle ex: <T,  suggestion asbe , then Enter marlei auto import hoye jabe.
+
+➡️see c27-9:4:09 minute
+-For single/main export - use default                    =>export default Todo;
+-⚠️For Mulitple export -don't use default               =>export Todo;
+ and for un-default import we need to use braces {}      =>import {Todo} from './Todo'
+
 
 
 
