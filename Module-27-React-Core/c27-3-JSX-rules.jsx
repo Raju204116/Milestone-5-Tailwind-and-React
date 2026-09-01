@@ -39,6 +39,8 @@
     ➡️1.Return a Single Root Element. If you need to return multiple items, then wrap them into one parent element -using parenthesis().
         -After parenthesis, you can use <div> </div> or fragment i.e empty tag <> </>
         
+        -use of fragment avoids dom from extra node , which is better than <div> 
+        
         //using fragment to return multiple items : (see App.tsx of my-first-app)
         function Test(){  
             return (
@@ -72,11 +74,6 @@
                     backgroundColor: "yellow"
                 }}
             ></div>
-
-
-
-
-
 
 
 */
