@@ -41,7 +41,7 @@
         
         -use of fragment avoids dom from extra node , which is better than <div> 
         
-        //using fragment to return multiple items : (see App.tsx of my-first-app)
+        //using fragment to return multiple items : (see App.tsx )
         function Test(){  
             return (
                 <>
@@ -66,7 +66,7 @@
         -inside attribute :  <img src={avatar} alt={name} />
 
  
-    ➡️6.Double Curly braces {{}}   : (see App.tsx of my-first-app)
+    ➡️6.Double Curly braces {{}}   : (see App.tsx )
         -Js objects need an extra pair of braces when passed directly into JSX.
         -  <div
                 style={{

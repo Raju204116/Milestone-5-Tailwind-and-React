@@ -9,7 +9,7 @@
 -It can receive any type of data - string,number,boolean,array,objects,functions......
 -It is an unidirectional process
 
-➡️see App.tsx in my-first-app
+➡️see App.tsx 
 function App() {    
   return (
     <>
