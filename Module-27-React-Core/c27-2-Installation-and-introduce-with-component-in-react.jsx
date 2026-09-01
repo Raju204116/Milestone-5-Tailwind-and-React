@@ -7,8 +7,12 @@
     -Go to vite.dev  =>getting started =>Scaffolding Your First Vite Project => using create vite with command line options
     -copy: npm create vite@latest my-vue-app -- --template vue
     -paste to local project directory (address bar) =>cmd  
+
     -rename as : npm create vite@latest my-first-app -- --template react-ts   (enter)
+
     =>Ok to proceed? (y) : y 
+    =>Select a framework: React
+    =>Select a variant:TypeScript
     =>Which linter to use? oxlint  :    (enter)
     =>Install with npm and start now? : (enter)
     -copy the local path and past to browser : http://localhost:5173/
@@ -24,7 +28,7 @@
     -then ctrl+click to the link Local:   http://localhost:5173/
     -or copy and paste to browser.
 
-  =>📌Running flow: The link calls the index.html => main.tsx => App.tsx
+  =>📌Code Running flow: The link calls the index.html => main.tsx => App.tsx
 
 =>✅✅Component in React
 -A component is basically a TypeScript function that returns JSX,
