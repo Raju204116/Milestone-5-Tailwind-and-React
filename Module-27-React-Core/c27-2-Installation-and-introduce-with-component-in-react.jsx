@@ -1,7 +1,6 @@
 /* 
 
-=>Why reactjs is called React ?
-=>Why one should use React ?
+
 
 
 =>✅✅Install and Create First Project
