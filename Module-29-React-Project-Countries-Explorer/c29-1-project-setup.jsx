@@ -1,10 +1,13 @@
 
 /* 
-=>Extensions:
+=>Clean up all this file:App.css, index.css, App.tsx (Only keep the main structure)
+
+✅✅Extensions:
 React Extension Pack
 Typescript React code snippets
+Modern React Typescript Snippets
 
-=>FolderStructure:
+✅✅FolderStructure:
 gpt prompt: I am developing a simple react ts project where i will display different countries flags and 
 I can mark which countries I have visited and show those information in the same page. I can toggle as well.
 
