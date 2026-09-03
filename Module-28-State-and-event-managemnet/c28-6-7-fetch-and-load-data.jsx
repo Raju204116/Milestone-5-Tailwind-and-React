@@ -74,7 +74,6 @@ const userDataPromise = async()=>{
 
 
 
-
 ➡️2.Suspense
 <Suspense> lets you display a fallback until its children have finished loading.
 ⭐children: The actual UI you intend to render. If children suspends while rendering, the Suspense boundary will switch to rendering fallback.
@@ -95,7 +94,7 @@ const userDataPromise = async()=>{
 
 
 
-➡️3.Call the Use(promise) API
+➡️3.Call the use(promise) Hook
 =>Users.tsx
 
 import { use } from "react";

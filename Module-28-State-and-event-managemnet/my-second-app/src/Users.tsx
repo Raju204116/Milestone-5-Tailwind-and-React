@@ -4,7 +4,7 @@ import UserCard from "./UserCard";
 function Users({usersDataPromise}){   //receiving from App.tsx
     
     const users=use(usersDataPromise);
-    console.log(users); //Just data is loaded to inspect-console
+    console.log(users);              //Just data is loaded to inspect-console
     
     
     return(

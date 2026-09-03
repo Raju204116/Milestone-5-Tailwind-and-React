@@ -5,6 +5,7 @@ import Batter from './Batter';
 import Cart from './Cart';
 import Counter from './Counter';
 import Users from './Users';
+import Todo from './Todo';
 
 
 //c28-6
@@ -63,6 +64,8 @@ function App() {
       </Suspense>
 
 
+      <h2>c28-6-7</h2>
+      <Todo></Todo>
 
 
     </>
