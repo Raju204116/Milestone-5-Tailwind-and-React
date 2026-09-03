@@ -99,30 +99,27 @@ API data is commonly returned as **JSON**.
 
 ✅✅Fetching Data
 
-### ➡️1. Using `fetch()`
+➡️1. Using `fetch()`
 
 fetch("https://api.example.com/products")
-  .then(response => response.json())
+  .then(response => response.json())        //📌then() is called callback function
   .then(data => {
     console.log(data);
   });
 
+📌here:
 * `fetch()` → sends a request to the API
 * `response.json()` → converts the response into JavaScript data
 * `data` → contains the API data
 
 
 
-### ➡️2. Using `async/await`
+➡️2. Using `async/await`
 `async/await` makes asynchronous API code **easier to read**.
 
 async function getProducts() {
-  const response = await fetch(
-    "https://api.example.com/products"
-  );
-
+  const response = await fetch("https://api.example.com/products" );
   const data = await response.json();
-
   console.log(data);
 }
 
@@ -130,14 +127,14 @@ async function getProducts() {
 
 ✅✅ Common API Errors
 
-* **Network error** → Connection problem
-* **Invalid endpoint** → Wrong API URL
-* **Server error** → Problem on the server
-* **API unavailable** → API is not currently accessible
-* **404** → Resource/endpoint not found
-* **401** → Unauthorized
-* **403** → Forbidden
-* **500** → Internal server error
+* Network error** → Connection problem
+* Invalid endpoint** → Wrong API URL
+* Server error** → Problem on the server
+* API unavailable** → API is not currently accessible
+* 404** → Resource/endpoint not found
+* 401** → Unauthorized
+* 403** → Forbidden
+* 500** → Internal server error
 
 
 */
