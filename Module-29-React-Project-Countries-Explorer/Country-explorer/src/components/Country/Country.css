@@ -3,6 +3,7 @@
     border: 2px solid green;
     border-radius: 10px;
     margin: 10px;
+    text-align: center;
 }
 
 .country h3{
@@ -11,4 +12,12 @@
 
 .country img{
     padding: 10px;
+}
+
+.country-visited{
+    background-color: lightgreen;
+}
+
+.country-visited h4{
+    color: red;
 }
